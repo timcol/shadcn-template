@@ -1,0 +1,15 @@
+{
+  "name": "React + Shadcn/UI Development",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:0-18",
+  "forwardPorts": [5173],
+  "postCreateCommand": "npm install",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss"
+      ]
+    }
+  }
+}
